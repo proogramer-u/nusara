@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Share setup keys without local values
+!.env.example
+
+# Local development planning notes
+/docs/superpowers/
