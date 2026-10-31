@@ -33,18 +33,6 @@ On a fresh checkout, run `pnpm dev` or `pnpm build` before typechecking so Next.
 - `src/app/globals.css`: palette, type and responsive rules.
 - `src/app/layout.tsx`: Indonesian metadata and social preview.
 
-
-## Client details still needed
-
-- Verified order form and optional prefilled category URLs.
-- Final product/lifestyle photos and vector logo.
-- Verified prices, materials, dimensions, variants and availability if published.
-- Payment and delivery policies and approved FAQ answers.
-- Official social/contact details if wanted.
-- Production domain: set `NUSARA_SITE_URL` (for example your real HTTPS origin) for absolute social metadata. Vercel automatically supplies its production URL; local development falls back to localhost. Add a canonical URL/sitemap once the domain is confirmed.
-- Confirmation of final packaging and QR storytelling implementation. The page describes QR storytelling as a concept.
-
-Survey statistics, university/group details, fake reviews, discounts and inventory claims are excluded.
 ## Navigation, motion and footer
 
 - `src/components/layout/Navbar.tsx` uses a native full-screen dialog on mobile, with focus containment, Escape dismissal, background scroll locking and automatic dismissal at the desktop breakpoint.
